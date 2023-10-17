@@ -1,0 +1,6 @@
+/* stylebase.css */
+.container {
+    margin-left: 0;
+    /* or */
+    padding-left: 0;
+}

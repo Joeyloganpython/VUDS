@@ -1,0 +1,43 @@
+{% extends "vuapp/base.html" %}
+<!DOCTYPE html>
+
+    {% block body_block %}
+
+<style>
+      /* Custom CSS for left-aligning content */
+      body {
+          text-align: left; /* Left-align all text content */
+          margin-left: 0;
+          padding-left: 0;
+   
+      }
+</style>    
+  <body>
+  
+
+
+    <div class="container">
+  <div class="jumbotron">
+
+    <h1><Center>Tracing File Results</center></h1>
+     
+  </div>
+
+</div>
+ 
+
+
+There is a {{result}}% likelyhood of hydro 
+
+<br><br>
+<img src="data:image/png;base64,{{pabd_plot}}" alt=""> </img>
+Test
+<br><br>
+
+<img src="data:image/png;base64,{{time_plot}}" alt=""> </img>
+
+
+{% endblock %}
+
+  </body>
+</html>
